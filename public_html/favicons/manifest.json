@@ -1,0 +1,13 @@
+{
+    "name": "Test Results",
+    "icons": [
+        {
+            "src": "/favicons/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ff1e1e",
+    "background_color": "#ff1e1e",
+    "display": "standalone"
+}

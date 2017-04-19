@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 9, 2017, 3:19:39 AM
+    Author     : T0astBread
+*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #dedede;
+    margin-left: 15%;
+    margin-right: 35%;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1
+{
+    font-size: 64pt;
+    margin-top: 1.2em;
+    margin-bottom: .8em;
+    font-weight: 600;
+}
+
+/*button
+{
+    width: 5em;
+    height: 2em;
+    font-size: 24pt;
+    background-color: rgb(255, 30, 30);
+    color: #eee;
+    border-radius: 5px;
+    border: none;
+    transition: background-color .05s;
+}
+
+button:active
+{
+    background-color: rgb(195, 0, 0);
+}*/
+
+.button
+{
+    background: none;
+    border: none;
+    border-radius: 0;
+    transition: background-color .5s;
+    padding: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 24pt;
+    color: black;
+}
+
+.button:hover
+{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.button-image path
+{
+    fill: rbga(0, 0, 0, .2);
+    transition: fill .5s;
+}
+
+.button:hover .button-image path
+{
+    fill: rgb(255, 30, 30);
+}
+
+.button span
+{
+    font-size: 20pt;
+    opacity: .35;
+    transition: opacity .5s;
+}
+
+.button:hover span
+{
+    opacity: 1;
+}
+
+.button-image.inline
+{
+    display: inline;
+    max-height: 30pt;
+    width: 1em;
+    vertical-align: -17%;
+}
+
+.button-image.inline path
+{
+    fill: rgba(0, 0, 0, .4);
+}
+
+.button-image.flip
+{
+    transform: rotate(180deg);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a#back-button
+{
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 800px)
+{
+    body
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    h1
+    {
+        font-size: 48pt;
+        margin-top: .8em;
+    }
+}

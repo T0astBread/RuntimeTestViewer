@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 9, 2017, 6:25:40 AM
+    Author     : T0astBread
+*/
+
+#test-list
+{
+    list-style: none;
+}
+
+.test
+{
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    padding: 2.3em;
+    margin-bottom: 2.5em;
+    width: 100%;
+}
+
+#test-list .test:last-child
+{
+    margin-bottom: 0;
+}
+
+.test h2
+{
+    margin-bottom: .05em;
+    font-size: 36pt;
+    width: 66%;
+}
+
+.test div
+{
+    font-size: 22pt;
+    margin-bottom: 1em;
+    max-width: 70%;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.test p
+{
+    line-height: 1.3em;
+    display: inline-block;
+    font-size: 22pt;
+    width: 66%;
+}
+
+.test-label
+{
+    font-weight: bold;
+}
+
+.compare-tests
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 25%;
+    height: 91%;
+    padding: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 1em;
+    font-size: initial;
+}
+
+.compare-button-image
+{
+    width: 65%;
+}
+
+.compare-tests span
+{
+    display: block;
+    margin-top: .5em;
+}
+
+@media screen and (max-width: 800px)
+{
+    .test
+    {
+        width: auto;
+        overflow: hidden;
+    }
+    
+    .test h2
+    {
+        font-size: 20pt;
+    }
+    
+    .test p
+    {
+        font-size: 14pt;
+    }
+    
+    .compare-tests
+    {
+        height: 85%;
+    }
+    
+    .compare-tests span
+    {
+        font-size: 14pt;
+    }
+}
